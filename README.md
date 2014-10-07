@@ -10,6 +10,10 @@ NationalDayHappy
 有一个问题必须特别注意：ios设备audio标签必须形成交互，才能播放。
 
 为了形成表面上自动播放，则采取如下办法加，window.addEventListener('touchstart',function(){audio.play()},false);
+
+
+
+
 		/*
 			@author pingfan
 			pingfan命名空间
